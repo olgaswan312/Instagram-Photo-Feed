@@ -1,0 +1,70 @@
+body{
+    background: lightgray;
+}
+* {
+    border: 1px dashed red;
+    min-height: 10px;
+}
+
+.photofeed-header {
+display: flex;
+background-color: white;
+}
+.photofeed-header h1 {
+        width: 100%;
+        margin-left: 40%;
+        height: 20px;
+        
+       
+}
+.firstphoto {
+    background: white;
+	width: 500px;
+	height: 500px;
+	margin-top: 30px;
+    margin-left: 500px;
+}
+.firstphoto-body {
+    display: flex;
+}
+.firstphoto-body img {
+    width: 500px;
+	height: 350px;
+    margin: auto;
+}
+.secondphoto {
+    background-color: white;
+    margin-top: 20px;
+}
+.secondphoto-body {
+    display: flex;
+}
+.secondphoto-body img {
+    width: 500px;
+	height: 350px;
+    margin: auto;
+}
+.firstphoto-header {
+    display: flex;
+}
+.h1 {
+    width: 100%;
+}
+.h2 {
+    width: 100%;
+}
+.secondphoto-header {
+    display: flex;
+}
+.thirdphoto-header {
+    display: flex;
+}
+.thirdphoto-body img {
+    width: 500px;
+	height: 350px;
+    margin: auto;
+}
+.thirdphoto {
+    background-color: white;
+    margin-top: 20px;
+}
